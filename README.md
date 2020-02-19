@@ -1,6 +1,6 @@
 # Lyrics-Comparison
 
-[See the src folder for code!](../src)
+[See the src folder for code!](../tree/master/src)
 
 ## This project uses two API's
 
