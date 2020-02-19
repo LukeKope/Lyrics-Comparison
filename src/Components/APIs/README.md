@@ -13,7 +13,7 @@ The lyrics similarity API only queries once there are valid lyrics on both the r
 2. The portion to compare the similarity of the lyrics - [Dandelion Text Similarity API](https://dandelion.eu/docs/api/datatxt/sim/v1/)
 
 
-### Lyrics Retrieval and Text SImilarity
+### Lyrics Retrieval and Text Similarity
 
 The useEffects serve to ensure that the lyrics have been queried and set
 boolean variables that tell the queryTextSimilarity function when to make the request to the Dandelion API.
