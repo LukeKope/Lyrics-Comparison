@@ -1,0 +1,32 @@
+
+2. Any way to abstract the API call? i.e. put it in a function called Text_similarities and then just return the percentage value to be displayed in home or
+does it all need to run through props in Home?
+
+5. Querying two separate lyrics and storing them in two separate strings/objects? How to know when one is stored vs the other how to take two consecutive inputs?
+Or just use two queries?
+
+ANSWERED
+_______________________________________________________________________
+1. Formatting text: efficient way to add the %20 to every space for the API Query?
+    Check stack overflow on this, replace all " " with %20 (probably has theta n^2 runtime)
+
+2. Max number of re-renders reached? With my setting of the simAPIData? 
+
+3. Data not accessing the actual value being output and for some reason the data is then popped
+    Mispelled similarity in my query (Solved both issues)
+
+4. How to display a loading screen while API comparing Text_similarities is being queried?
+    Use a loading state
+
+5. Trouble querying data of musixmatch
+    Need to send authentication header with axios! That's why it was saying 'No Access-Control-Allow Headers' in the error message
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Final Questions/To-do
+______________________
+1. Passing data from lyrics getters 1 and 2 to the index.js home file and displaying the updated data to the user
+2. Getting the href's to update the URL for each respective query (lyrics1 and lyrics2)
+3. Basically everything is set I just need to fix issues with passing data from lyrics_getter1 and 2 to the Home
+4. Clarify how to use useState to pass the props from the lyrics_getter to the home 

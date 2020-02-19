@@ -1,0 +1,48 @@
+MAKE A NEW BRANCH TO COMMIT ALL CHANGES TO! ✔️
+
+1. Clean up data flow, separate into components
+2. Make it work separated, and then make it work for all songs!
+
+
+__________________________________________________________________________________________________________________________________________________
+
+    DATA FLOW PLAN
+__________________________________________________________________________________________________________________________________________________
+
+Have the same setup as before, divided into two screens. But instead of anchors, use a bar users can type into like the create post
+Read the data from the input, send that to the get lyrics ✔️
+
+Once both get lyrics have been triggered, then call the similarity query
+
+- Have our get Lyrics component. Have two search bar components (left and right) that will call that function once the user submits. Once both
+search boxes triggered, compare the similarities.
+
+(What to do if both triggered? Should every new search trigger the API? Or maybe have a button that clears searches?)
+
+Autocomplete search box?
+
+__________________________________________________________________________________________________________________________________________________
+
+    TO DO
+__________________________________________________________________________________________________________________________________________________
+- Remove all API keys from github (Repo is currently private. Maybe delete all to be safe or make new repo to be safe as this will be on portfolio)
+
+- Get dot env working
+
+- Once data is working and flowing, add some CSS flourish! Make it all animated and nice
+    - Add loading animations while waiting for API
+    - Style the page better, make it look cleaner
+    - Animations to the form entry (text slides up when you click on it)
+
+__________________________________________________________________________________________________________________________________________________
+    
+    DONE
+__________________________________________________________________________________________________________________________________________________
+    Need to fix the lyric searchup first and foremost! ✔️
+    - Have data coming through from musixmatch, just need to display it now and then pass that data to dandelion once both results are in. ✔️
+    - Display lyrics once they're loaded to the GetLyrics component! ✔️
+
+    - Have the get lyrics working; now we need to query dandelion once we know that both lyrics have been searched for. Have it once left and right submitted are true,
+      then we can query the similarities. Have something like <{LeftSubmitted && RightSubmitted} && SimilarityQuery/> in the HTMl return ✔️
+
+    - Get Dandelion text similarity query to work all the time. ✔️
