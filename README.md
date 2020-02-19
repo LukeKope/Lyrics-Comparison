@@ -1,6 +1,8 @@
-*Luke Koppenheffer Dynamic Web Midterm Project*
+# Lyrics-Comparison
 
-This project uses two API's
+[See the src folder for code!](../src)
+
+## This project uses two API's
 
 1. Dandelion Text Similarity API: https://dandelion.eu/docs/api/datatxt/sim/v1/
 
@@ -9,5 +11,4 @@ ________________________________________________________________________________
 2. The Musixmatch lyrics getter API: https://developer.musixmatch.com/documentation
 
     *This API returns the lyrics for any given song when passed the artist name and song name*
-# Lyrics-Comparison
-# Lyrics-Comparison
+
